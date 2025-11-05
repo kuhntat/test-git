@@ -7,7 +7,7 @@ pipeline {
                 stage('Checkout'){
                         steps{
                                 git branch: 'main',
-                                url: 'https://github.com/kuhntat/source-maven-java-spring-hello-webapp.git'
+                                url: 'https://github.com/kuhntat/test-git.git'
                         }
                 }
                 stage('Build'){
